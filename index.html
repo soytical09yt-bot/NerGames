@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NER GAMES STORE: consolas, videojuegos y accesorios en Florida, Camagüey.">
+  <title>NER GAMES STORE | Tienda de videojuegos</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#inicio" class="logo" aria-label="NER GAMES STORE, inicio">
+      <img src="logo.jpeg" alt="Logo de NER GAMES STORE" onerror="this.style.display='none'">
+      <span>STORE</span>
+    </a>
+    <nav class="navbar" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a><a href="#categorias">Categorías</a><a href="#productos">Productos</a><a href="#ofertas">Ofertas</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <span class="subtitulo">BIENVENIDO A NER GAMES</span>
+        <h1>TU MUNDO GAMER<br>COMIENZA <span>AQUÍ</span></h1>
+        <p>Descubre consolas, videojuegos y accesorios. Lo que buscas en un solo lugar.</p>
+        <a href="#productos" class="btn">Explorar catálogo</a>
+      </div>
+    </section>
+
+    <section class="categorias" id="categorias">
+      <div class="section-title"><span>EXPLORA</span><h2>NUESTRAS CATEGORÍAS</h2></div>
+      <div class="categorias-grid">
+        <a href="#productos" class="categoria" data-ir-categoria="playstation"><span>🎮</span><h3>PlayStation</h3></a>
+        <a href="#productos" class="categoria" data-ir-categoria="xbox"><span>🟢</span><h3>Xbox</h3></a>
+        <a href="#productos" class="categoria" data-ir-categoria="nintendo"><span>🔴</span><h3>Nintendo</h3></a>
+        <a href="#productos" class="categoria" data-ir-categoria="accesorios"><span>🕹️</span><h3>Accesorios</h3></a>
+      </div>
+    </section>
+
+    <section class="productos" id="productos">
+      <div class="section-title"><span>CATÁLOGO</span><h2>NUESTROS PRODUCTOS</h2><p>Encuentra tu próximo equipo.</p></div>
+      <div class="buscador"><input type="search" id="busqueda" placeholder="Buscar consolas o accesorios..." aria-label="Buscar productos"></div>
+      <div class="filtros" aria-label="Filtrar productos">
+        <button class="filtro activo" type="button" data-categoria="todos">Todos</button>
+        <button class="filtro" type="button" data-categoria="playstation">PlayStation</button>
+        <button class="filtro" type="button" data-categoria="xbox">Xbox</button>
+        <button class="filtro" type="button" data-categoria="nintendo">Nintendo</button>
+        <button class="filtro" type="button" data-categoria="accesorios">Accesorios</button>
+      </div>
+      <div class="productos-grid" id="lista-productos">
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS3 Fat.WEBP" alt="PlayStation 3 Fat 250 GB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 3 Fat 250 GB</h3>
+            <p>Consola liberada de 250 GB de almacenamiento, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">50 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 3 Fat 250GB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS3 Fat.WEBP" alt="PlayStation 3 Fat 500 GB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 3 Fat 500 GB</h3>
+            <p>Consola liberada de 500 GB de almacenamiento, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">60 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 3 Fat 500GB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS3 Slim.JPG" alt="PlayStation 3 Slim 250 GB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 3 Slim 250 GB</h3>
+            <p>Consola liberada de 250 GB de almacenamiento, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">70 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 3 Slim 250GB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS3 Slim.JPG" alt="PlayStation 3 Slim 500 GB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 3 Slim 500 GB</h3>
+            <p>Consola liberada de 500 GB de almacenamiento, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">80 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 3 Slim 500GB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS3 Súper Slim.JPG" alt="PlayStation 3 Súper Slim 250 GB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 3 Súper Slim 250 GB</h3>
+            <p>Consola liberada de 250 GB de almacenamiento, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">70 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 3 Super Slim 250GB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS3 Súper Slim.JPG" alt="PlayStation 3 Súper Slim 500 GB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 3 Súper Slim 500 GB</h3>
+            <p>Consola liberada de 500 GB de almacenamiento, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">80 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 3 Super Slim 500GB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS4 Fat.AVIF" alt="PlayStation 4 Fat 500 GB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 4 Fat 500 GB</h3>
+            <p>Consola liberada de 500 GB, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">220 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 4 Fat 500GB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS4 Fat.AVIF" alt="PlayStation 4 Fat 1 TB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 4 Fat 1 TB</h3>
+            <p>Consola liberada de 1 TB, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">240 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 4 Fat 1TB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS4 Slim.JPG" alt="PlayStation 4 Slim 500 GB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 4 Slim 500 GB</h3>
+            <p>Consola liberada de 500 GB, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">230 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 4 Slim 500GB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS4 Slim.JPG" alt="PlayStation 4 Slim 1 TB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 4 Slim 1 TB</h3>
+            <p>Consola liberada de 1 TB, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">250 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 4 Slim 1TB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS4 Pro.JPG" alt="PlayStation 4 Pro 1 TB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 4 Pro 1 TB</h3>
+            <p>Consola liberada de 1 TB, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">280 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 4 Pro 1TB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS5 Fat.WEBP" alt="PlayStation 5 Fat 1 TB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 5 Fat 1 TB</h3>
+            <p>Consola de 1 TB, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">500 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 5 Fat 1TB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS5 Slim.JPG" alt="PlayStation 5 Slim 1 TB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 5 Slim 1 TB</h3>
+            <p>Consola de 1 TB, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">600 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 5 Slim 1TB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="playstation">
+          <div class="imagen-producto"><img src="PS5 Pro.JPG" alt="PlayStation 5 Pro 1 TB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">PLAYSTATION</span>
+            <h3>PlayStation 5 Pro 1 TB</h3>
+            <p>Consola de 1 TB, incluye 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">800 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="PlayStation 5 Pro 1TB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="xbox">
+          <div class="imagen-producto"><img src="Xbox One FAT.WEBP" alt="Xbox One Fat 500 GB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">XBOX</span>
+            <h3>Xbox One Fat 500 GB</h3>
+            <p>Consola de 500 GB, incluye juegos, 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">180 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="Xbox One Fat 500GB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="xbox">
+          <div class="imagen-producto"><img src="Xbox One FAT.WEBP" alt="Xbox One Fat 1 TB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">XBOX</span>
+            <h3>Xbox One Fat 1 TB</h3>
+            <p>Consola de 1 TB, incluye juegos, 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">200 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="Xbox One Fat 1TB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="xbox">
+          <div class="imagen-producto"><img src="Xbox One S.JPG" alt="Xbox One S 500 GB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">XBOX</span>
+            <h3>Xbox One S 500 GB</h3>
+            <p>Consola de 500 GB, incluye juegos, 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">200 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="Xbox One S 500GB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="xbox">
+          <div class="imagen-producto"><img src="Xbox One S.JPG" alt="Xbox One S 1 TB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">XBOX</span>
+            <h3>Xbox One S 1 TB</h3>
+            <p>Consola de 1 TB, incluye juegos, 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">220 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="Xbox One S 1TB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="xbox">
+          <div class="imagen-producto"><img src="Xbox One X.JPG" alt="Xbox One X 1 TB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">XBOX</span>
+            <h3>Xbox One X 1 TB</h3>
+            <p>Consola de 1 TB, incluye juegos, 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">240 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="Xbox One X 1TB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="xbox">
+          <div class="imagen-producto"><img src="Xbox Series S.WEBP" alt="Xbox Series S 500 GB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">XBOX</span>
+            <h3>Xbox Series S 500 GB</h3>
+            <p>Consola de 500 GB, incluye juegos, 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">440 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="Xbox Series S 500GB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="xbox">
+          <div class="imagen-producto"><img src="Xbox Series S.WEBP" alt="Xbox Series S 1 TB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">XBOX</span>
+            <h3>Xbox Series S 1 TB</h3>
+            <p>Consola de 1 TB, incluye juegos, 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">500 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="Xbox Series S 1TB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="xbox">
+          <div class="imagen-producto"><img src="Xbox Series X.WEBP" alt="Xbox Series X 1 TB" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">XBOX</span>
+            <h3>Xbox Series X 1 TB</h3>
+            <p>Consola de 1 TB, incluye juegos, 2 mandos originales, cable HDMI y cable de alimentación.</p>
+            <div class="precio">670 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="Xbox Series X 1TB">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="nintendo">
+          <div class="imagen-producto"><img src="Nintendo Switch 1.JPG" alt="Nintendo Switch 1" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">NINTENDO</span>
+            <h3>Nintendo Switch 1</h3>
+            <p>Consola liberada, incluye MicroSD de 128 GB, cable de carga, Dock, cable HDMI y pareja de Joy-Con.</p>
+            <div class="precio">180 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="Nintendo Switch 1">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="nintendo">
+          <div class="imagen-producto"><img src="Nintendo Switch OLED.JPG" alt="Nintendo Switch OLED" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">NINTENDO</span>
+            <h3>Nintendo Switch OLED</h3>
+            <p>Consola liberada, incluye MicroSD de 128 GB, cable de carga, Dock, cable HDMI y pareja de Joy-Con.</p>
+            <div class="precio">210 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="Nintendo Switch OLED">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="nintendo">
+          <div class="imagen-producto"><img src="Nintendo Switch 2.JPG" alt="Nintendo Switch 2" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">NINTENDO</span>
+            <h3>Nintendo Switch 2</h3>
+            <p>Incluye cable de carga, Dock, cable HDMI y pareja de Joy-Con.</p>
+            <div class="precio">450 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="Nintendo Switch 2">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="accesorios">
+          <div class="imagen-producto"><img src="Mando PS4.jpg" alt="Mando original para PS4" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">ACCESORIOS</span>
+            <h3>Mando original para PS4</h3>
+            <p>Control inalámbrico para PlayStation 4.</p>
+            <div class="precio">30 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="Mando original para PS4">Consultar</a>
+          </div>
+        </article>
+        <article class="producto" data-categoria="accesorios">
+          <div class="imagen-producto"><img src="Mando PS5.jpg" alt="Mando original para PS5" loading="lazy"></div>
+          <div class="producto-info">
+            <span class="etiqueta">ACCESORIOS</span>
+            <h3>Mando original para PS5</h3>
+            <p>Control inalámbrico para PlayStation 5.</p>
+            <div class="precio">60 USD</div>
+            <a href="#contacto" class="btn comprar" data-producto="Mando original para PS5">Consultar</a>
+          </div>
+        </article>
+      </div>
+      <p class="sin-resultados" id="sin-resultados" hidden>No se encontraron productos con esa búsqueda.</p>
+    </section>
+
+    <section class="ofertas" id="ofertas">
+      <span>OPORTUNIDADES ESPECIALES</span><h2>OFERTAS Y NOVEDADES</h2>
+      <p>Consulta la disponibilidad de nuestros productos y promociones.</p>
+      <a href="#contacto" class="btn">MÁS INFORMACIÓN</a>
+    </section>
+
+    <section class="nosotros" id="nosotros">
+      <div class="section-title"><span>CONÓCENOS</span><h2>SOBRE NER GAMES</h2></div>
+      <p>Somos una tienda dedicada a la venta de consolas, videojuegos y accesorios como mandos y demás. Trabajamos para ofrecer atención directa, información clara y productos para los amantes de los videojuegos.</p>
+    </section>
+
+    <section class="contacto" id="contacto">
+      <span>ESTAMOS PARA AYUDARTE</span><h2>CONTACTA CON NOSOTROS</h2>
+      <p>¿Encontraste algo que te interese? Escríbenos y consulta disponibilidad.</p>
+      <a href="#" id="whatsapp-general" class="btn" target="_blank" rel="noopener">Pedidos por WhatsApp</a>
+      <div class="redes"><a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></div>
+    </section>
+  </main>
+
+  <footer><h3>NER <span>GAMES STORE</span></h3><p>WhatsApp: +53 53959676</p><p>Tienda de videojuegos.</p><p>© 2026 NER GAMES STORE. Todos los derechos reservados.</p></footer>
+  <script src="funciones.js"></script>
+</body>
+</html>

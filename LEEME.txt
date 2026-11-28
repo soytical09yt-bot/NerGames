@@ -1,0 +1,11 @@
+NER GAMES STORE - ARCHIVOS PARA GITHUB PAGES
+
+Sube estos cuatro archivos a la RAIZ del repositorio:
+- index.html
+- estilos.css
+- funciones.js
+- logo.jpeg
+
+Las fotos de consolas deben estar también en la raíz del repositorio, con los nombres y extensiones exactos que aparecen en index.html. Las rutas ya están configuradas para archivos en la raíz, como en la captura enviada.
+
+Los archivos Mando PS4.jpg y Mando PS5.jpg no aparecían en la captura. Súbelos a la raíz si quieres que esas dos fotos carguen.
